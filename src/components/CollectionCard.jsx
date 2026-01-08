@@ -11,7 +11,7 @@ const CollectionCard = ({item}) => {
     }
   return (
     <div className="bg-white  rounded-lg overflow-hidden shadow hover:shadow-lg transition">
-      <div className="relative h-52 w-[17vw]  bg-black">
+      <div className="relative h-52  bg-black">
         <a href={item.url} className="h-full" target="_blank">
           {item.type === "photo" && (
             <img

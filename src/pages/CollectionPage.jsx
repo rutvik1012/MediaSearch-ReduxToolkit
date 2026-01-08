@@ -28,7 +28,7 @@ const CollectionPage = () => {
         </h2>
       )}
 
-      <div className="flex justify-start flex-wrap gap-6 overflow-auto  w-full px-10 py-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
         {collection.map((item, idx) => (
           <div key={idx}>
             <CollectionCard item={item} />
